@@ -23,13 +23,12 @@ The project uses a star schema with the following structure:
    - pressure
    - wind_speed
 
-2. Dimension Table:
-   - `cities`
-     - city_id
-     - city_name
-     - country
-     - latitude
-     - longitude
+2. Dimension Table: `cities`
+   - city_id
+   - city_name
+   - country
+   - latitude
+   - longitude
 
 ## Database Result
 
