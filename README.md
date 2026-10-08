@@ -16,6 +16,7 @@ The Weather Data Integration Project demonstrates key data engineering skills by
 The project uses a star schema with the following structure:
 
 1. Fact Table: `weather_measurements`
+   - id
    - date
    - time
    - city_id (foreign key to cities dimension)
